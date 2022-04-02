@@ -10,9 +10,7 @@ import Parse
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+	
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 		// Override point for customization after application launch.
 		
@@ -22,7 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 			$0.server = "https://parseapi.back4app.com"
 		}
 		Parse.initialize(with: parseConfig)
-						 
+		
+		
 						 
 		return true
 	}

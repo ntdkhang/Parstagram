@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		10F51803C564E1B6FC374A1F /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2479A7986EE8A491ED16E2 /* Pods_Parstagram.framework */; };
+		420295D127F7C65E00F3C0B6 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420295D027F7C65E00F3C0B6 /* CommentCell.swift */; };
 		42EAC6C827EE222F00EFE3CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EAC6C727EE222F00EFE3CC /* AppDelegate.swift */; };
 		42EAC6CA27EE222F00EFE3CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EAC6C927EE222F00EFE3CC /* SceneDelegate.swift */; };
 		42EAC6CF27EE222F00EFE3CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EAC6CD27EE222F00EFE3CC /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		420295D027F7C65E00F3C0B6 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		42EAC6C427EE222F00EFE3CC /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EAC6C727EE222F00EFE3CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42EAC6C927EE222F00EFE3CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				42EAC6DB27EE350700EFE3CC /* LoginViewController.swift */,
 				42EAC6DD27EE351C00EFE3CC /* FeedViewController.swift */,
 				42EAC6E127F0A1CE00EFE3CC /* PostViewCell.swift */,
+				420295D027F7C65E00F3C0B6 /* CommentCell.swift */,
 				42EAC6C927EE222F00EFE3CC /* SceneDelegate.swift */,
 				42EAC6CD27EE222F00EFE3CC /* Main.storyboard */,
 				42EAC6D027EE223200EFE3CC /* Assets.xcassets */,
@@ -221,6 +224,7 @@
 				42EAC6C827EE222F00EFE3CC /* AppDelegate.swift in Sources */,
 				42EAC6DE27EE351C00EFE3CC /* FeedViewController.swift in Sources */,
 				42EAC6CA27EE222F00EFE3CC /* SceneDelegate.swift in Sources */,
+				420295D127F7C65E00F3C0B6 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
